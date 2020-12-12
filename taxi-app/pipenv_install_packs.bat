@@ -1,0 +1,1 @@
+pipenv install channels channels-redis Django djangorestframework djangorestframework-simplejwt Pillow psycopg2-binary pytest-asyncio pytest-django
