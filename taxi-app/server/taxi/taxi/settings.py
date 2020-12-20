@@ -140,7 +140,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-ASGI_APPLICATION = 'taxi.routing.application'
+ASGI_APPLICATION = 'taxi.asgi.application'
 
 CHANNEL_LAYERS = {
     'default': {
