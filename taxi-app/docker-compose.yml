@@ -10,7 +10,7 @@ services:
 
   taxi-database:
     container_name: taxi-database
-    image: postgres:12.1
+    image: igorzna/postgres:12.1-TAXI-APP
     ports:
       - 5433:5432
     volumes:
