@@ -8,6 +8,12 @@ On notebook:
 
     `C:\Temp\redis-2.4.5-win32-win64\64bit`
 
+### Postgres
+Create a new database and user with the following commands:
+
+`psql -U postgres` <br />
+`postgres=# CREATE USER taxi WITH SUPERUSER CREATEDB CREATEROLE PASSWORD "taxi";` <br />
+`postgres=# CREATE DATABASE taxi OWNER taxi` <br />
 
 ### In my case
 
