@@ -6,7 +6,6 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-channels = "*"
 channels-redis = "*"
 django = "*"
 djangorestframework = "*"
@@ -15,6 +14,7 @@ pillow = "*"
 psycopg2-binary = "*"
 pytest-asyncio = "*"
 pytest-django = "*"
+channels = "==2.4.0"
 
 [requires]
 python_version = "3.7"
